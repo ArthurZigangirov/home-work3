@@ -8,7 +8,7 @@ class ListOfNames extends React.Component{
         return(
         <ul>
         {arrNames.map(element => {
-            return <li key={v4}>{element}</li>
+            return <li key={v4()}>{element}</li>
         })}
         </ul>
         )
